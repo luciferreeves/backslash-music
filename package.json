@@ -1,0 +1,33 @@
+{
+  "name": "backslash-music",
+  "productName": "BackSlash Music",
+  "version": "1.0.0",
+  "description": "BackSlash Music is a simple and fast music player, built for BackSlash Linux Systems.",
+  "main": "main.js",
+  "author": "BackSlash Linux",
+  "scripts": {
+    "start": "./node_modules/.bin/electron .",
+    "postinstall": "npm install --save-dev dialogs electron about-window electron-builder electron-packager musicmetadata photonkit snazzy && npm install --save dialogs about-window electron musicmetadata",
+    "fix": "standard --verbose --fix | snazzy",
+    "package-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=512.icns --prune=true --out=dist --asar",
+    "package-win": "electron-packager . backslash-music --overwrite --asar=true --platform=win32 --arch=ia32 --icon=512.ico --prune=true --out=dist --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"BackSlash Music\"",
+    "package-linux": "electron-packager . backslash-music --overwrite --asar=true --platform=linux --arch=x64 --icon=512.png --prune=true --out=dist",
+      "create-installer-win": "node installers/windows/createinstaller.js"
+  },
+  "devDependencies": {
+    "about-window": "^1.10.0",
+    "dialogs": "^1.1.20",
+    "electron": "^1.8.2",
+    "electron-builder": "^19.56.2",
+    "electron-packager": "^11.2.0",
+    "electron-winstaller": "^2.6.4",
+    "musicmetadata": "^2.0.5",
+    "photonkit": "^0.1.2",
+    "snazzy": "^7.0.0"
+  },
+  "dependencies": {
+    "dialogs": "^1.1.20",
+    "musicmetadata": "^2.0.5",
+    "about-window": "^1.10.0"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "dest": "dist/",
+  "icon": "512.png",
+  "categories": [
+    "Multimedia"
+  ],
+  "lintianOverrides": [
+    "changelog-file-missing-in-native-package"
+  ]
+}

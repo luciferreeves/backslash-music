@@ -3,6 +3,14 @@
 
 BackSlash Music is a simple and fast music player, built from the ground up, using web technologies such as HTML, CSS and JavaScript, all wrapped on Electron Framework.
 
+## Downloads
+
+Download for BackSlash Linux/Ubuntu/Debian: https://drive.google.com/open?id=1WnjhkEJ8h0zO35LvzQH49xBa-guZH1JC
+
+Download for macOS: https://drive.google.com/open?id=1Zi5B9xxciWhAnskKZ4_ICLc9bErf4EY8
+
+Download for Windows: https://drive.google.com/open?id=1B393Cvrk2TgXDM4sMc4iueWuq1ThJnvf
+
 ## Development
 This app is built using Electron. It requires the following dependencies:
 

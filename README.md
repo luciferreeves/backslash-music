@@ -56,7 +56,7 @@ CSS follows this style:
 	    - Display
 	    - Box model
 	    - Other
- 8. `z-index` always goes inmmediately bellow position. Position atributtes follow this order: Top/Right/Bottom/Left
+ 8. `z-index` always goes inmmediately below position. Position atributtes follow this order: Top/Right/Bottom/Left
  9. Space before the value but not before the semicolon. Also, always end with a semicolon.
  10. Use double quotes rather than single quotes.
  11. Font weights should be defined using numeric values (e.g. 400 instead of normal, 700 rather than bold).
